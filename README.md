@@ -6,7 +6,7 @@ version: '1.1.0.005', '1.1.0' is jasmine-jquery's version, '005' is this package
 INSTALL
 -------
 
-	$ bpm add jasmine-jquery
+	$ bpm add jasmine-jquery --dev
 
 Resources
 ---------
