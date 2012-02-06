@@ -1,0 +1,25 @@
+{
+  "name": "jasmine-jquery",
+  "summary": "jasmine-jquery",
+  "description": "jasmine-jquery",
+  "homepage": "http://github.com/GutenYe/bpm-jasmine-jquery",
+  "author": "Guten",
+  "version": "1.3.1.001",
+  "directories": {
+    "lib": "lib"
+  },
+  "bpm:build": {
+		"bpm_libs.js" : {
+			"files": []
+		},
+    "bpm_test_libs.js": {
+      "files": [
+				"lib"
+      ]
+    },
+		"dependencies": {
+			"jasmine": ">= 0",
+			"jquery": ">= 0"
+		}
+  }
+}
